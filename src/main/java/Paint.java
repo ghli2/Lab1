@@ -25,7 +25,7 @@ public class Paint {
         Zen.create(320, 200, "stretch");
 
         while (Zen.isRunning()) {
-
+            Zen.sleep(1);
             /*
              * Grab the current mouse location.
              */

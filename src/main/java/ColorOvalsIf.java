@@ -24,6 +24,7 @@ public class ColorOvalsIf {
              * Wait for a mouse click.
              */
             Zen.waitForClick();
+            Zen.waitForClick();
 
             /*
              * Get the click location and use it to set the oval location and color.

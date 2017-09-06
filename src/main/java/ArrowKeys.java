@@ -25,10 +25,10 @@ public class ArrowKeys {
         File spriteFile = new File(classLoader.getResource("sprite1.gif").getFile());
 
         while (Zen.isRunning()) {
-            if (y > 0 && Zen.isVirtualKeyPressed(KeyEvent.VK_UP)) {
+            if (y > 0 && Zen.isVirtualKeyPressed(KeyEvent.VK_W)) {
                 y = y - 4;
             }
-            if (y < Zen.getZenHeight() - 32 && Zen.isVirtualKeyPressed(KeyEvent.VK_DOWN)) {
+            if (y < Zen.getZenHeight() - 32 && Zen.isVirtualKeyPressed(KeyEvent.VK_S)) {
                 y = y + 4;
             }
             if (x > 0 && Zen.isVirtualKeyPressed(KeyEvent.VK_LEFT)) {
