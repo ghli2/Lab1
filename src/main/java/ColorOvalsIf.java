@@ -32,7 +32,7 @@ public class ColorOvalsIf {
             int x = Zen.getMouseX();
             int y = Zen.getMouseY();
 
-            Zen.fillOval(x - 16, y - 16, 32, 32);
+            Zen.fillOval(x - 16, y - 16, 35, 32);
             Zen.setColor(x, y, x + y);
         }
     }
