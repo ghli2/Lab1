@@ -32,7 +32,7 @@ public class Valentine {
         /*
          * ...and then out to the left.
          */
-        for (double heartXPosition = -1; heartXPosition > -1000; heartXPosition *= 1.1) {
+        for (double heartXPosition = 1; heartXPosition < 645; heartXPosition *= 1.1) {
             Zen.drawImage(heartFile.getAbsolutePath(), (int) heartXPosition, 0);
             Zen.sleep(33);
         }
